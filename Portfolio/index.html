@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gih Silva</title>
-    <link rel="stylesheet" href="CSS/style.css">   
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;300;400;600;700&family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+   
 </head>
 <body>
     <header>
         <ul>
             <li>
+                <i class="fa-brands fa-github"></i>
                 <a target="blank" href="https://github.com/gihcelly">Github</a>
             </li>
             <li>
+                <i class="fa-solid fa-envelope"></i>
                 <a target="blank" href="mailto:gicelly.oliveira@gmail.com">Email</a>
             </li>
             <li>
+                <i class="fa-brands fa-whatsapp"></i>
                 <a target="blank" href="https://wa.me/81991939109">Whatsapp</a>
             </li>
         </ul>
@@ -27,11 +34,11 @@
                 <h1>Gicelly Silva</h1>
                 <h5>Desenvolvedora Front-End </h5>
             </div>
-            <div id="arrow">
-                <i class="fa-solid fa-caret-down"></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-caret-down"></i>
             </div>
-            <div id="about">
-                <p>Olá, sou ex estudante de engenharia civil e atualmente estudo Análise e Desenvolvimento de Sistemas. Estou em fase de transição de carreira e estou buscando me qualificar na área de TI.</p>
+            <div style="display:none ;" id="about">
+                <p>Olá, sou ex estudante de engenharia civil e atualmente estudo Análise e Desenvolvimento de Sistemas. Estou em fase de transição de carreira e quero me tornar Desenvolvedora.</p>
             </div>
             <div class="form">
                 <div>
@@ -44,7 +51,7 @@
             </div>
         </section>
     </main>
-
+    <script src="/JS/animations"></script>
     <script src="https://kit.fontawesome.com/0b7e3ecd54.js" crossorigin="anonymous"></script>
 </body>
 </html>
